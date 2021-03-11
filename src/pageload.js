@@ -9,20 +9,21 @@ const pageLoad = (() => {
     
     `
 
-    // const header = document.createElement("header");
-    // header.innerHTML = `
-    // <nav>
-    // <h1 class="logo">Dorisa</h1>
-    // <ul class="navli">
-    //     <li>Home</li>
-    //     <li>Menu</li>
-    //     <li>Contact</li>
-    // </ul>
-    // </nav>
-    // `
+    const header = document.createElement("header");
+    header.innerHTML = `
+    <nav>
+    <h1 class="logo">Dorisa</h1>
+    <ul class="navli">
+        <li id="home">Home</li>
+        <li id="menu">Menu</li>
+        <li id="contact">Contact</li>
+    </ul>
+    </nav>
+    `
 
 
     contentContainer.appendChild(divimg)
+    contentContainer.appendChild(header)
 })();
 
 export { pageLoad };

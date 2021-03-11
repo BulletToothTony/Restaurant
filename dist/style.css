@@ -30,3 +30,15 @@ nav {
 ul > li {
         padding-right: 15px;
 }
+
+.navli li{
+    background-color: salmon;
+}
+
+.navli li:hover{
+    color: rgb(0, 84, 117);
+}
+
+.menu-active {
+    background-color: rgb(167, 167, 167);
+}
