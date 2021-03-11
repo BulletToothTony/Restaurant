@@ -14,15 +14,15 @@ const pageLoad = (() => {
     <nav>
     <h1 class="logo">Dorisa</h1>
     <ul class="navli">
-        <li id="home">Home</li>
-        <li id="menu">Menu</li>
-        <li id="contact">Contact</li>
+        <li id="home" class="tab">Home</li>
+        <li id="menu" class="tab">Menu</li>
+        <li id="contact" class="tab">Contact</li>
     </ul>
     </nav>
     `
 
 
-    contentContainer.appendChild(divimg)
+    // contentContainer.appendChild(divimg)
     contentContainer.appendChild(header)
 })();
 
