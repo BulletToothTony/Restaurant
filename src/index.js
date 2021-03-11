@@ -23,7 +23,7 @@ homeListen.addEventListener('click', homeTabFunc)
 
 function homeTabFunc() {
     console.log('homeclicked')
-    homeDivActive.style.display = "block";
+    homeDivActive.style.display = "flex";
     homeDivActive.classList.toggle('home-active');
     menuDivActive.style.display = "none";
     contactDivActive.style.display = "none"
