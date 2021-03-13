@@ -35,7 +35,7 @@ menuListen.addEventListener('click', menuTabFunc)
 function menuTabFunc() {
     console.log('menu clicked')
     // menuDivActive.innerText='testing'
-    menuDivActive.style.display = "block";
+    menuDivActive.style.display = "flex";
     menuDivActive.classList.toggle("menu-active")
     contactDivActive.style.display = "none"
     homeDivActive.style.display = "none"
@@ -47,7 +47,7 @@ contactListen.addEventListener('click', contactTab)
 function contactTab() {
     console.log('contact clicked')
     contactDivActive.classList.toggle("contact-active")
-    contactDivActive.style.display = "block";
+    contactDivActive.style.display = "flex";
     menuDivActive.style.display = "none";
     homeDivActive.style.display = "none"
 }
