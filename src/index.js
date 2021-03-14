@@ -24,7 +24,7 @@ homeListen.addEventListener('click', homeTabFunc)
 function homeTabFunc() {
     console.log('homeclicked')
     homeDivActive.style.display = "flex";
-    homeDivActive.classList.toggle('home-active');
+    homeDivActive.classList.add('home-active');
     menuDivActive.style.display = "none";
     contactDivActive.style.display = "none"
 }
@@ -36,7 +36,7 @@ function menuTabFunc() {
     console.log('menu clicked')
     // menuDivActive.innerText='testing'
     menuDivActive.style.display = "flex";
-    menuDivActive.classList.toggle("menu-active")
+    menuDivActive.classList.add("menu-active")
     contactDivActive.style.display = "none"
     homeDivActive.style.display = "none"
 }
@@ -46,8 +46,11 @@ contactListen.addEventListener('click', contactTab)
 
 function contactTab() {
     console.log('contact clicked')
-    contactDivActive.classList.toggle("contact-active")
+    contactDivActive.classList.add("contact-active")
     contactDivActive.style.display = "flex";
     menuDivActive.style.display = "none";
     homeDivActive.style.display = "none"
 }
+
+const orderbutton = document.getElementById('order-button')
+orderbutton.addEventListener('click', menuTabFunc);

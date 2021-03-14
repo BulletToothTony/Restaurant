@@ -6,6 +6,7 @@ const home = (() => {
     const homeDiv = document.createElement('div')
     homeDiv.setAttribute('id', 'homeDiv')
     homeDiv.classList.add('home-active')
+    
     // homeDiv.style.add('flex')
     homeDiv.innerHTML = `<div class="home-outer"><div class="hero"><h1>Come on down to our 5 star restaurant</h1></div>
     
@@ -16,7 +17,7 @@ const home = (() => {
     </div>
 
 
-    <button class="home-button">Order Now</button>
+    <button class="home-button" id="order-button">Order Now</button>
     
     <div class="home-div-address"><h2>Opening Times:</h2><br>
                                 <p>Mon-Fri: 11:00-20:00<br>

@@ -19,17 +19,26 @@ header {
     width: 100%;
 } */
 
+:root {
+    --poppins: 'Poppins', sans-serif;
+    --fascinate: 'Fascinate', cursive;
+}
+
 nav {
     display: flex;
+    cursor: pointer;
     width: 100%;
-    background-color: grey;
+    background-color: rgba(204, 116, 0, 0.815);
 }
 
 .logo {
+    padding-left: 10px;
     padding-right: 250px;
+    font-family: var(--fascinate);
 }
 
 .navli {
+    font-family: var(--poppins);
     display: flex;
     padding: 10px;
     list-style: none;
@@ -50,7 +59,7 @@ ul > li {
 }
 
 .menu-active {
-    background-color: tomato;
+    background-color: rgb(65, 65, 65);
     height: 100vh;
     width: 100%;
     flex-direction: column;
@@ -89,6 +98,7 @@ ul > li {
     color: black;
     height: 100vh;
     width: 100%;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -106,5 +116,5 @@ ul > li {
 }
 
 .red {
-    color: red;
+    color: rgb(0, 0, 0);
 }
