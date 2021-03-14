@@ -94,6 +94,8 @@ ul > li {
 
 .home-active {
     background-image: url(./imgs/photo-1514933651103-005eec06c04b.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: rgba(255, 99, 71, 0.589);
     color: black;
     height: 100vh;
