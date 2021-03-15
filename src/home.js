@@ -7,6 +7,7 @@ const home = (() => {
     homeDiv.setAttribute('id', 'homeDiv')
     homeDiv.classList.add('home-active')
     
+    
     // homeDiv.style.add('flex')
     homeDiv.innerHTML = `<div class="home-outer"><div class="hero"><h1>Come on down to our 5 star restaurant</h1></div>
     
