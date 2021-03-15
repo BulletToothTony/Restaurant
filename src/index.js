@@ -18,6 +18,7 @@ tabs.forEach((tab =>
     })   
 ));
 
+homeTabFunc()
 
 homeListen.addEventListener('click', homeTabFunc)
 

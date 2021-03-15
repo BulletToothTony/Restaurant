@@ -22,6 +22,7 @@ header {
 :root {
     --poppins: 'Poppins', sans-serif;
     --fascinate: 'Fascinate', cursive;
+    --dancing: 'Dancing Script', cursive;
 }
 
 nav {
@@ -60,7 +61,8 @@ ul > li {
 
 .menu-active {
     background-color: rgb(65, 65, 65);
-    height: 100vh;
+    padding-bottom: 10px;
+    height: auto;
     width: 100%;
     flex-direction: column;
     /* justify-content: center; */
@@ -69,9 +71,33 @@ ul > li {
 
 .menu-container{
     background-color: lightcoral;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
     width: 90%;
-    height: 90%;
+    height: auto;
     border-radius: 10px;
+}
+
+.menu-image {
+    padding-left: 10px;
+    padding-top: 10px;
+    width: calc(5rem + 8vw);
+    height: calc(5rem + 8vw);
+}
+
+.menu-item {
+    display: flex;
+}
+
+.menu-text {
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.hero {
+    font-family: var(--dancing);
+    text-align: center;
 }
 
 .contact-active {
@@ -90,6 +116,14 @@ ul > li {
     width: 80%;
     height: 80%;
     border-radius: 10px;
+}
+
+.map-responsive{
+    position: relative;
+    padding-bottom: 100%;
+    height: 0;
+    overflow: hidden;
+    width: auto;
 }
 
 .home-active {
