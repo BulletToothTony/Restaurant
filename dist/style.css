@@ -25,13 +25,10 @@ header {
     --dancing: 'Dancing Script', cursive;
 }
 
-nav {
-    display: flex;
-    cursor: pointer;
-    width: 100%;
+/* nav {
     background-color: rgba(204, 116, 0, 0.815);
-}
-
+} */
+/*
 .logo {
     padding-left: 10px;
     padding-right: 250px;
@@ -51,13 +48,54 @@ ul > li {
 
 .navli li{
     /* background-color: salmon; */
-    padding-bottom: 5px;
-}
+    /* padding-bottom: 5px;
+} */
 
-.navli li:hover{
+/* .navli li:hover{
     color: rgb(0, 84, 117);
     border-bottom: 3px solid rgb(214, 214, 214);
+} */ 
+
+.navli {
+    background-color: salmon;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.logo {
+    font-family: var(--fascinate);
+    padding-left: 10px;
+  float:left;
+  font-size: 20px}
+
+
+li {
+    float: right;
+  }
+  
+li {
+    cursor: pointer;
+    display: block;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+li:hover:not(.active) {
+    border-bottom: 2px solid rgba(199, 80, 0, 0.76);
+    background-color: rgba(17, 17, 17, 0.192);
+  }
+  
+.active {
+    background-color: #4CAF50;
+  }
 
 .menu-active {
     background-color: rgb(65, 65, 65);
@@ -91,8 +129,15 @@ ul > li {
 }
 
 .menu-text {
-    padding-top: 25px;
+    /* padding-top: x; */
     padding-left: 15px;
+    font-family: var(--poppins);
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-family: var(--dancing);
+    margin-bottom: 15px;
 }
 
 .hero {

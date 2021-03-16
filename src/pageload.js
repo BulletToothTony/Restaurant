@@ -12,11 +12,11 @@ const pageLoad = (() => {
     const header = document.createElement("header");
     header.innerHTML = `
     <nav>
-    <h1 class="logo">Dorsia</h1>
     <ul class="navli">
-        <li id="home" class="tab">Home</li>
-        <li id="menu" class="tab">Menu</li>
+        <h1 class="logo">Dorsia</h1>
         <li id="contact" class="tab">Contact</li>
+        <li id="menu" class="tab">Menu</li>
+        <li id="home" class="tab">Home</li>
     </ul>
     </nav>
     `

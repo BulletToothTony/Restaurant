@@ -10,7 +10,7 @@ const menu = (() => {
     <div class="menu-item">
         <div><img class="menu-image" src="/FreeCodeCamp/Odin/Projects/Restaurant/dist/imgs/hamburger.png" alt="Hamburger"> 
         </div> 
-            <div class="menu-text">Hamburger <br>
+            <div class="menu-text"><h4>Hamburger</h4>
                 Buns, Tomato, Onion, Lettuce, you know the drill <br>
                 $2.99
             </div>
@@ -18,7 +18,7 @@ const menu = (() => {
     <div class="menu-item">
         <div><img class="menu-image" src="/FreeCodeCamp/Odin/Projects/Restaurant/dist/imgs/cheeseburger.png" alt="Hamburger"> 
         </div> 
-            <div class="menu-text">Cheeseburger <br>
+            <div class="menu-text"><h4>Cheeseburger</h4>
                 Buns, Tomato, Onion, Lettuce, you know the drill <br>
                 $2.99
             </div>
@@ -26,7 +26,7 @@ const menu = (() => {
     <div class="menu-item">
         <div><img class="menu-image" src="/FreeCodeCamp/Odin/Projects/Restaurant/dist/imgs/steak.png" alt="Hamburger"> 
         </div> 
-            <div class="menu-text">Steak <br>
+            <div class="menu-text"><h4>Steak</h4>
                 All american steak <br>
                 $2.99
             </div>
@@ -34,7 +34,7 @@ const menu = (() => {
     <div class="menu-item">
         <div><img class="menu-image" src="/FreeCodeCamp/Odin/Projects/Restaurant/dist/imgs/vepizza.png" alt="Hamburger"> 
         </div> 
-            <div class="menu-text">Pizza (Ve) <br>
+            <div class="menu-text"><h4>Pizza (Ve)</h4>
                 One for the vegans <br>
                 $2.99
             </div>
@@ -42,7 +42,7 @@ const menu = (() => {
     <div class="menu-item">
         <div><img class="menu-image" src="/FreeCodeCamp/Odin/Projects/Restaurant/dist/imgs/peppizza.png" alt="Hamburger"> 
         </div> 
-            <div class="menu-text">Pepperoni Pizza <br>
+            <div class="menu-text"><h4>Pepperoni Pizza </h4>
                 Buns, Tomato, Onion, Lettuce, you know the drill <br>
                 $2.99
             </div>
@@ -50,7 +50,7 @@ const menu = (() => {
     <div class="menu-item">
         <div><img class="menu-image" src="/FreeCodeCamp/Odin/Projects/Restaurant/dist/imgs/wine.png" alt="Hamburger"> 
         </div> 
-            <div class="menu-text">Wine <br>
+            <div class="menu-text"><h4>Wine </h4>
                 Buns, Tomato, Onion, Lettuce, you know the drill <br>
                 $2.99
             </div>
