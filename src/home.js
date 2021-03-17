@@ -9,7 +9,7 @@ const home = (() => {
     
     
     // homeDiv.style.add('flex')
-    homeDiv.innerHTML = `<div class="home-outer"><div class="hero"><h1>Come on down to our 5 star restaurant</h1></div>
+    homeDiv.innerHTML = `<div class="home-outer"><div class="hero"><h1 class="home-h1">Come on down to our 5 star restaurant</h1></div>
     
     
     <div class="home-container">

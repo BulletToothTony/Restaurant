@@ -72,7 +72,7 @@ ul {
     font-family: var(--fascinate);
     padding-left: 10px;
   float:left;
-  font-size: 20px}
+  font-size: 1.75rem}
 
 
 li {
@@ -85,6 +85,8 @@ li {
     color: rgb(20, 20, 20);
     text-align: center;
     padding: 20px 16px;
+    font-family: var(--poppins);
+    font-size: 1.75rem;
     text-decoration: none;
   }
   
@@ -100,7 +102,7 @@ li:hover:not(.active) {
 .menu-active {
     background-color: rgb(65, 65, 65);
     padding-bottom: 10px;
-    height: auto;
+    height: 100vh;
     width: 100%;
     flex-direction: column;
     /* justify-content: center; */
@@ -109,13 +111,42 @@ li:hover:not(.active) {
 
 .menu-container{
     background-color: lightcoral;
-    /* display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    /*
     flex-direction: column;
     align-items: center; */
     width: 90%;
     height: auto;
     border-radius: 10px;
 }
+
+h1{ 
+    font-size: 2.5rem;
+
+}
+
+@media only screen and (max-width: 750px) {
+    .menu-container {
+        grid-template-columns: 1fr;
+    }
+    .menu-active {
+        height: 100%;
+    }
+    .logo {
+        font-size: 1.3rem;
+    }
+    
+    li {
+        font-size: 1.15rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+    }
+    
+  }
 
 .menu-image {
     padding-left: 10px;
@@ -126,6 +157,8 @@ li:hover:not(.active) {
 
 .menu-item {
     display: flex;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
 }
 
 .menu-text {
@@ -147,6 +180,7 @@ h4 {
 
 .contact-active {
     background-color: steelblue;
+    background-color:rgb(65, 65, 65);
     height: 100vh;
     width: 100%;
     flex-direction: column;
@@ -168,7 +202,7 @@ h4 {
     padding-bottom: 100%;
     height: 0;
     overflow: hidden;
-    width: auto;
+    width: 34rem;
 }
 
 .home-active {
@@ -187,6 +221,7 @@ h4 {
 
 .home-outer {
     background-color: rgba(70, 70, 70, 0.863);
+    background-color: salmon;
     display: flex;
     width: 70%;
     height: 50%;
@@ -195,6 +230,36 @@ h4 {
     align-items: center;
     border-radius: 10px;
 }
+
+.home-button {
+        background-color: #63636393; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 4px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+}
+
+.home-button:hover {
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.home-outer p {
+    font-size: 1.5rem;
+}
+
+/* .home-h1 {
+    font-size: 2.5rem;
+} */
+
+
 
 .red {
     color: rgb(0, 0, 0);

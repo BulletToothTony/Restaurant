@@ -56,6 +56,23 @@ const menu = (() => {
             </div>
     </div>
 
+    <div class="menu-item">
+        <div><img class="menu-image" src="/FreeCodeCamp/Odin/Projects/Restaurant/dist/imgs/peppizza.png" alt="Hamburger"> 
+        </div> 
+            <div class="menu-text"><h4>Pepperoni Pizza </h4>
+                Buns, Tomato, Onion, Lettuce, you know the drill <br>
+                $2.99
+            </div>
+    </div>
+    <div class="menu-item">
+        <div><img class="menu-image" src="/FreeCodeCamp/Odin/Projects/Restaurant/dist/imgs/wine.png" alt="Hamburger"> 
+        </div> 
+            <div class="menu-text"><h4>Wine </h4>
+                Buns, Tomato, Onion, Lettuce, you know the drill <br>
+                $2.99
+            </div>
+    </div>
+
 
     </div>
     
