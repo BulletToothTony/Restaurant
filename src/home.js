@@ -20,7 +20,7 @@ const home = (() => {
 
     <button class="home-button" id="order-button">Order Now</button>
     
-    <div class="home-div-address"><h2>Opening Times:</h2><br>
+    <div class="home-div-address"><h2>Opening Times:</h2>
                                 <p>Mon-Fri: 11:00-20:00<br>
                                     Sat: 11:00-22:00<br>
                                     Sun: Closed

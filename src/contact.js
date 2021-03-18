@@ -8,8 +8,9 @@ const contact = (() => {
     contanctDiv.innerHTML = `<div class="hero"><h1>Contact form</h1></div>
     
     <div class="contact-container">
-    <div>Phone: 0800 900321 </div>
-    <div class="form">E-mail us below:
+    <div class="form">
+    Phone: 0800 900321 <br>
+    E-mail us below:
     <form>
     <input type="text" id="email" name="email" placeholder="email..."><br>
     <input type="text" id="name" name="name" placeholder="name..."><br>

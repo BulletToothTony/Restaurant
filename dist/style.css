@@ -84,9 +84,9 @@ li {
     display: block;
     color: rgb(20, 20, 20);
     text-align: center;
-    padding: 20px 16px;
+    padding: 24px 16px;
     font-family: var(--poppins);
-    font-size: 1.75rem;
+    font-size: 1.4rem;
     text-decoration: none;
   }
   
@@ -100,7 +100,7 @@ li:hover:not(.active) {
   }
 
 .menu-active {
-    background-color: rgb(65, 65, 65);
+    background-color: rgba(255, 174, 0, 0.479);
     padding-bottom: 10px;
     height: 100vh;
     width: 100%;
@@ -135,6 +135,7 @@ h1{
         height: 100%;
     }
     .logo {
+        padding-top: 8px;
         font-size: 1.3rem;
     }
     
@@ -180,7 +181,7 @@ h4 {
 
 .contact-active {
     background-color: steelblue;
-    background-color:rgb(65, 65, 65);
+    background-color: rgba(255, 174, 0, 0.479);
     height: 100vh;
     width: 100%;
     flex-direction: column;
@@ -192,7 +193,8 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
+    font-family: var(--poppins);;
+    width: 90%;
     height: 80%;
     border-radius: 10px;
 }
@@ -204,6 +206,35 @@ h4 {
     overflow: hidden;
     width: 34rem;
 }
+
+@media only screen and (max-width: 650px) {
+    .map-responsive {
+        width: 30rem;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    .map-responsive {
+        width: 25rem;
+    }
+
+}
+
+@media only screen and (max-width: 450px) {
+    .map-responsive {
+        width: 22rem;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .map-responsive {
+        width: 20rem;
+    }
+
+}
+
 
 .home-active {
     background-image: url(./imgs/photo-1514933651103-005eec06c04b.jpeg);
@@ -253,7 +284,9 @@ h4 {
 
 .home-outer p {
     font-size: 1.5rem;
+    font-family: var(--poppins);
 }
+
 
 /* .home-h1 {
     font-size: 2.5rem;
@@ -263,4 +296,19 @@ h4 {
 
 .red {
     color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 400px) {
+    .home-outer {
+        height: 500px;
+    }
+
+    .home-container p {
+        font-size: 1.25rem;
+    }
+
+    .home-div-address {
+        font-size: 1rem;
+    }
+
 }
